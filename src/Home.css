@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;  
+}
+ .home-page{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 100px;
+} 
+.navbar {
+    position: fixed; /* Stick it to the top */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 9vh;
+    background-image: white;
+    box-shadow: 0px 0px 7px black;
+    display: flex;
+    justify-content: space-between;  /* Spread content */
+    align-items: center;             /* Vertically center items */
+    padding: 0 20px;
+    z-index: 1000;
+  }
+.navbar img{
+    margin-left: 7cm;
+    margin-top: 3px;
+}
+.logo{
+    display: flex;
+    /* background-color: aqua;   */
+    width: 40%; 
+}
+.logo h4{
+    margin-top: .6cm;
+}
+.options{
+    margin-left: 0.5cm;
+    width: 70%;
+    height: 9vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.options button{
+    width: 70px;
+    height: 40px;
+    margin-top:13px ;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: white;
+}
+.options button:hover{
+    cursor: pointer;
+}
+.dropdown1, .dropdown2, .dropdown3{
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    margin-top: 0.644cm;
+    margin-left: -0.4cm;
+    display: none;   
+}
+.dropdown2 ul a{
+    text-decoration: none;
+}
+.dropdown2{
+    width: 250px;
+    position: absolute;
+    margin-top: 0.644cm;
+    margin-left: -0.8cm;
+}
+.dropdown3{
+    width: 150px;
+    position: absolute;
+    margin-top: 0.644cm;
+    margin-left: -0.9cm;
+}
+
+.kalamg:hover .dropdown1, .ronaldo:hover .dropdown2, .logout:hover .dropdown3{
+    display:block ;
+}
+.dropdown1 li, .dropdown2 li, .dropdown3 li{
+    width: 100%;
+    color: rgb(21, 21, 21);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    text-indent: .3cm;
+    line-height: 35px;
+    list-style-type: none;
+}
+.dropdown1 li:hover, .dropdown2 li:hover, .dropdown3 li:hover{
+    padding: 3px;
+}
+.dropdown1::before, .dropdown2::before, .dropdown3::before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 6px;
+    left: 0.6cm;
+    bottom: 100%;
+    background-color: #6a11cb;
+    transition: background-color 0.3s ease-in;
+}
+.dropdown3::before{
+    position: absolute;
+    width: 35px;
+    height: 6px;
+    left: 1cm;
+}
+.kalamg:hover .dropdown1::before{
+  background-color:  #6a11cb;
+  width: 30%;
+}
+.ronaldo:hover .dropdown2::before{
+  background-color: rgb(255, 0, 230);
+  width: 30%;
+}
+.logout:hover .dropdown3::before{
+    background-color: rgb(9, 147, 62);
+    width: 40%;
+
+}
+.Link{
+    text-decoration: none;
+}
+#student{
+    position: relative;
+    left: 17cm;
+    top: 3.4cm;
+}
+.welcome-section{
+    position: relative;
+    bottom: 6cm;
+    right: 2cm;
+    line-height: 1.5cm;
+}
+.script-text{
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    color: rgb(237, 66, 66);
+}
+.welcome-section h2{
+    position: relative;
+    top: 2.7cm;
+    left: 2cm;
+}
+.welcome-section h1{
+    position: relative;
+    top: 2.7cm;
+    left: 2cm;
+    color: rgb(58, 56, 56);
+    font-weight: 700;
+}
+.welcome-section p{
+    position: relative;
+    top: 2.8cm;
+    left: 2cm;
+    font-size: 25px;
+    color: rgb(112, 107, 107);
+    font-weight: 800;
+}
+.about{
+    line-height: .9cm;
+    font-weight: 500;
+    position: relative;
+    bottom: 1cm;
+}

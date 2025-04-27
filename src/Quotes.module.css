@@ -1,0 +1,50 @@
+/* Quotes.module.css */
+.pageContainer {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2e3b55;  /* Dark blue color, representing wisdom */
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .quotesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .quoteCard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-left: 5px solid #00aaff;  /* Light blue left border for distinction */
+  }
+  
+  .quoteCard:hover {
+    transform: translateY(-10px);
+  }
+  
+  .quoteText {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .author {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+  }
+  

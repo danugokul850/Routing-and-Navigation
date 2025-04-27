@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9a9aec;
+    height: 100vh;
+}
+.container{
+    width: 800px;
+    height: 620px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 0px 15px black;
+}
+.image img{
+    margin-top: 40px;
+}
+.image p{
+    text-align: center;
+    margin-top: 8px;
+    color: black;
+}
+.login{
+    background-color:white;
+    width: 300px;
+    height: 500px;
+    margin-left: 1cm;
+    margin-top: 2cm;
+}
+.login h2{
+    font-size: 50px;
+    margin-bottom: 1cm;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.login label, div{
+ font-size: 20px;
+ margin-bottom: 0.2cm;
+}
+.login input, button{
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 0.4cm;
+    border-radius: 4px;
+}
+.login #logo{
+    margin-top: 1.8cm;
+}
+.login span{
+    text-indent: .4cm;
+}
+.login span:hover{
+    cursor: pointer;
+}
+.login a{
+    color: black;
+}
+.Remember #check{
+    margin-right: 0.4cm;
+    width: 30px;
+    height: 20px;
+    position: relative; 
+    top: 3px;
+}
+.login button{
+    width: 100px;
+    height: 40px;
+    background-color: #007ACC;
+    color:white;
+    font-weight: 800;
+    margin-top: 0.6cm;
+    border: 2px solid gray;
+    
+}
+.link{
+    text-decoration: none;
+}
+.login button:hover{
+    cursor: pointer;
+}

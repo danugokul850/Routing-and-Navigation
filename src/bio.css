@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+}
+.bio-container{
+    height:100vh;
+    width: 100%; 
+    background-color:  rgb(241, 222, 241);  
+}
+ .kalam{
+    background-color: rgb(241, 222, 241);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid black;
+} 
+ .kalam img{
+    position: relative;
+    right: 5cm;
+} 
+.kalam h2{
+    position: relative;
+    right: 3cm;
+    font-size: 50px;
+    color:rgb(23, 23, 23);
+}
+.kalam p{
+    position: relative;
+    right: 5.53cm;
+    top: 1cm;
+    font-weight: 600; 
+}
+.content{
+    background-color: rgb(241, 222, 241);
+    width: 100vw;
+    height: 150vh;
+}
+.content h1{
+    position:relative;
+    left: 5cm;
+    font-weight: 500;
+    font-size: 50px;
+}
+.content p{
+    /* background-color: yellow; */
+    width: 55vw;
+    margin-left: 5cm;
+    margin-top: .6cm;
+    line-height: 40px;
+    text-align: justify;
+
+}
+.content h3{
+    margin-left:5cm ;
+    margin-top: 1cm;
+}
+.content ul li{
+    margin-left: 6cm;
+    margin-top: .5cm;
+}
+#wikipedia{
+ position: relative;
+ left: 13cm;
+ top: 2cm;
+ font-weight: 700;
+}
+
