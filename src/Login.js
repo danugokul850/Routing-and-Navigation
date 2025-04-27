@@ -7,13 +7,7 @@ export default function Login() {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  function handleLogin() {
-    if (name.trim() === "" || password.trim() === "") {
-      alert("Please fill all details before logging in!");
-    } else {
-      navigate("/Home");
-    }
-  }
+
 
   return (
     <div className="outer">
